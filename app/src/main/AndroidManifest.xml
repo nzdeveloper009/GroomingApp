@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ip.facewashproject">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.FaceWashProject.NoActionBar">
+        <activity android:name=".PhoneActivities.SetupProfileActivity"/>
+        <activity android:name=".PhoneActivities.OTPActivity" />
+        <activity android:name=".PhoneActivities.PhoneNumberActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".AmazonWebsite.BuyAmazonActivity" />
+        <activity android:name=".YoutubeVideo.YoutubeVideoActivity" />
+        <activity android:name=".perfumesproducts.ShampoProducts" />
+        <activity android:name=".Hairproducts.oliProducts" />
+        <activity android:name=".Hairproducts.Hairspray" />
+        <activity android:name=".Hairproducts.HaircareProducts" />
+        <activity android:name=".BodyCare" />
+        <activity android:name=".BodyWash" />
+        <activity android:name=".perfumesproducts.PerfumesProducts" />
+        <activity android:name=".facecreams.WhitingProducts" />
+        <activity android:name=".facecreams.Shavingproducts" />
+        <activity android:name=".facecreams.moisturizeProducts" />
+        <activity android:name=".facecreams.FaceCreams" />
+        <activity android:name=".facescrub.Normalproduct" />
+        <activity android:name=".facescrub.Dryskinscrub" />
+        <activity android:name=".facescrub.Oilyskinscrub" />
+        <activity android:name=".facescrub.FaceScrub" />
+        <activity android:name=".facewash.NormalskinProducts" />
+        <activity android:name=".facewash.DrySkinproducts" />
+        <activity android:name=".facewash.OilyskinProducts" />
+        <activity android:name=".facewash.FaceWash" />
+        <activity android:name=".MainActivity"/>
+    </application>
+
+</manifest>

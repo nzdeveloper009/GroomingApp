@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1085074918157",
+    "project_id": "mengrooming-11d75",
+    "storage_bucket": "mengrooming-11d75.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1085074918157:android:6103f4f6eec3b56d67be44",
+        "android_client_info": {
+          "package_name": "com.ip.facewashproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1085074918157-tgmitk0trd94vqeoch3p8hsut9fj0d1d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBV4G82dxS1t4JtlK4oHjLxaYpTsMo1ct0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1085074918157-tgmitk0trd94vqeoch3p8hsut9fj0d1d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
