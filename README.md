@@ -1,5 +1,5 @@
 # GroomingApp
-Men Grooming App where YouTube video and amazon products provided
+Term project Men Grooming App where YouTube video and amazon products provided
 # Changing if you use
   - Change database file google.service.json
   - i use phone number authentication for registration
